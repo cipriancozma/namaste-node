@@ -1,6 +1,7 @@
 # Namaste Node Notes
 
 ### Intro to Node.js
+---
 
 "Any application that can be written in JavaScript, will eventually be written in JavaScript"
             
@@ -33,4 +34,5 @@ First name of Node js was Web.js -> creating web servers.
 - 2019 -> JS Foundation + Node js Foundation = Open JS Foundation
 
 ### JS on Server
+---
 
