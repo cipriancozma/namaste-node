@@ -23,3 +23,5 @@ calculateMultiply(a, b);
 
 console.log(JSON.stringify(data));
 
+console.log(__dirname);
+console.log(__filename);
