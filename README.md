@@ -36,3 +36,18 @@ First name of Node js was Web.js -> creating web servers.
 ### JS on Server
 ---
 
+Server - remote computer
+
+NodeJs is a C++ application with V8 embedded into it.
+
+ECMASCRIPT - Standards / Rules (JS Engines follow these standards)
+
+Computers understand only BINARY CODE.
+
+Computer
+
+JS => HIGH LEVEL LANGUAGES (C++) => MACHINE CODE => ASSEMBLY CODE => BINARY CODE
+
+### Writting Code
+---
+
