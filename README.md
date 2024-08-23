@@ -51,3 +51,17 @@ JS => HIGH LEVEL LANGUAGES (C++) => MACHINE CODE => ASSEMBLY CODE => BINARY CODE
 ### Writting Code
 ---
 
+By running "node" in the terminal you can run node in the node repl. (Read, Evaluate, Print, Loop).
+
+Node js is a JS Runtime Environment.
+
+![Node sent to V8 Engine](images/node_sent_to_engine.png)
+
+`
+console.log(this)
+`
+This line prints an empty object
+
+### Module.exports && Require
+---
+
