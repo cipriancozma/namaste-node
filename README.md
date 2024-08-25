@@ -65,3 +65,17 @@ This line prints an empty object
 ### Module.exports && Require
 ---
 
+Modules protect their variables and functions from leaking. 
+
+|               | Common JS Modules (cjs) | ES Modules (mjs) |
+| :---------------- | :------: | ----: |
+|        |   module.exports / require()   | import export |
+|           |   older way   | newer way |
+|    |  synchronous calls   | async option |
+|  |  non strict mode   | strict mode |
+|  |  very popular in the Industry   |  |
+
+
+### Diving into the Node.js github repo
+---
+
