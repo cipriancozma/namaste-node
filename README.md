@@ -79,3 +79,44 @@ Modules protect their variables and functions from leaking.
 ### Diving into the Node.js github repo
 ---
 
+require("./path")
+
+All the code of the module is wrapped inside a function named IIFE.
+
+Q. Why do we need IIFEs?
+
+- imediately invokes the code
+- keeps the variables and functions safe (private)
+
+Q. How are variables and functions private in different modules?
+
+- because of IIFEs and require
+
+Q. How do we get access to module.exports?
+
+- Through Node
+- Node js parses module as a parameter to the IIFE
+
+![Modules wrapped inside IIFE](images/modules_wrapped_inside_iife.png)
+
+#require(/path)
+
+1. Resolving the module
+- local path
+- json -> node:module
+
+2. Loading the module
+- file content is loaded
+
+3. Wraps inside IIFE
+
+4. Evaluation -> module.exports
+
+5. Caching
+
+- If I have three files that require a specific module, e.g. require("./xyz.js") the module is run only once, the others two are coming from the cache.
+
+
+### libuv & async IO
+---
+
