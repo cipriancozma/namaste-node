@@ -120,3 +120,5 @@ Q. How do we get access to module.exports?
 ### libuv & async IO
 ---
 
+JS -> synchronous single threaded
+
