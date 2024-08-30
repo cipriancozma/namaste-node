@@ -1,6 +1,6 @@
 const crypto = require("crypto");
 
-console.log("Hello");
+console.log("Hello again");
 
 var a = 1078698;
 var b = 20986;
