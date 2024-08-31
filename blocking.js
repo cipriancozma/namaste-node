@@ -6,6 +6,7 @@ var a = 1078698;
 var b = 20986;
 
 // this one below will block the main thread, no callback is passed as it is for the one method without sync
+// Synchronous Function will BLOCK THE MAIN THREAD - DON'T USE IT
 crypto.pbkdf2Sync("password", "salt", 500000, 50, "sha512");
 console.log("First key is generated!");
 
