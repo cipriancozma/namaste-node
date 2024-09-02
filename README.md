@@ -122,3 +122,6 @@ Q. How do we get access to module.exports?
 
 JS -> synchronous single threaded
 
+##### SYNCHRONOUS CODE EXECUTION IN JS
+---
+
