@@ -125,3 +125,4 @@ JS -> synchronous single threaded
 ##### SYNCHRONOUS CODE EXECUTION IN JS
 ---
 
+TO BE CONTINUED
