@@ -126,3 +126,19 @@ JS -> synchronous single threaded
 ---
 
 TO BE CONTINUED
+
+
+
+
+
+
+
+
+
+### Sync, async, setTimeoutZero -> check code
+---
+
+
+### Deep dive into V8 JS Engine
+---
+TO BE CONTINUED
